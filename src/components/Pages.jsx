@@ -1,7 +1,7 @@
 import React from 'react'
 import CEE from './CEE/CEE'
 import ABS from './ABS/ABS'
-import Sandhee from './ABS/Sandhee'
+import Sandhee from './SANDHEE/Sandhee'
 
 const Pages = () => {
   return (
