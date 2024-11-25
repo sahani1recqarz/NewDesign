@@ -1,5 +1,6 @@
 import React from 'react';
 import { IoIosNotifications } from 'react-icons/io';
+import { Link } from 'react-router-dom';
 
 const CEE = () => {
   return (
@@ -27,7 +28,9 @@ const CEE = () => {
         </div>
       </div>
       <footer className='flex justify-start items-start relative left-0'>
-        <p className=' flex justify-start items-start gap-[10px] text-[16px] '> <span>©</span> 2024</p>
+        <Link>
+          <p className=' flex justify-start items-start gap-[10px] text-[16px] '> <span>©</span> 2024</p>
+        </Link>
       </footer>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from 'react';
 import { IoIosNotifications } from 'react-icons/io';
+import { Link, NavLink } from 'react-router-dom';
 
 const Sandhee = () => {
   return (
@@ -31,7 +32,9 @@ const Sandhee = () => {
 
       </div>
       <footer className='flex justify-center px-10'>
-        <p className='footer flex justify-start font-[Montserrat] font-medium text-[28px] items-start'> info@sandhee.com        </p>
+        <Link>
+        <p className='footer flex justify-start font-[Montserrat] font-medium text-[28px] items-start'> info@sandhee.com</p>
+        </Link>
       </footer>
     </div>
   );
