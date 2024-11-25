@@ -1,11 +1,11 @@
 import React from 'react';
 import { IoIosNotifications } from 'react-icons/io';
 
-const Abs1 = () => {
+const ABS = () => {
   return (
     <div className="hero_abs1 bg-red-400 overflow-hidden">
-      <div className="hero-content">
-        <button className=" relative left-[64rem] bottom-[2rem]
+          <div className='flex justify-end items-end w-full px-10 pt-10'>
+        <button className="
       w-[165px] h-[56px] bg-[#FFFFFF] text-[#2D2D2D] font-[400]  font-[TT   Hoves] text-[20px] leading-[23.56px] rounded-[40px]
       flex justify-center items-center 
       ">Notify me
@@ -15,6 +15,9 @@ const Abs1 = () => {
           </span>
 
         </button>
+      </div>
+      <div className="hero-content">
+      
         {/* <img
           src="#"
           alt="Astronaut"
@@ -34,4 +37,4 @@ const Abs1 = () => {
   );
 };
 
-export default Abs1;
+export default ABS;

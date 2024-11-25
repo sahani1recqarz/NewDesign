@@ -1,7 +1,7 @@
 import React from 'react';
 import { IoIosNotifications } from 'react-icons/io';
 
-const Page = () => {
+const CEE = () => {
   return (
     <div className="hero bg-red-400 overflow-hidden">
       <div className="hero-content">
@@ -33,4 +33,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default CEE;
